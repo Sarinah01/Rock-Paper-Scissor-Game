@@ -1,0 +1,85 @@
+ *{
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+body{
+    background-color: dimgray;
+}
+h1{
+    background-color: #021526;
+    color: #E2E2B6;
+    height: 5rem;
+    line-height: 5rem;
+}
+.msg{
+    height: 30px;
+    margin-top: 1px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.msg:hover{
+    opacity: 0.75;
+    cursor:default;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.choice {
+    height:150px;
+    width: 150px;
+}
+.choice:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    height:150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.txt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.txt:hover{
+    opacity: 0.75;
+    cursor:grab;
+}
+
+.Scoreboard{
+    display: flex;
+    height: 200px;
+    width: 90%;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #021526;
+    margin: 50px ;
+    color: white;
+
+}
+.Score{
+    margin: 35px;
+
+}
+.user-score{
+    font-size: 30px;
+}
+.comp-score{
+    font-size: 30px;
+}
+
+
+.txt{
+    margin: 3px;
+    font-size: 20px;
+}
+
